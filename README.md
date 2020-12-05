@@ -22,6 +22,7 @@ int getX(){
 ```
 
 ## Setup
+You could just watch my [Youtube Video]("")
 1. Fork this project
   1. x
 2. Have an Xcode project open and do the following
