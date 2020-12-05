@@ -6,7 +6,8 @@ Xcode is a very sophisticated IDE, yet for some reason they don't have a feature
 After set up, all you need to do is copy the class attributes that you want setters and getters for. Then the script will change what's inside your clipboard. Meaning all you need to do is paste the setters and getters where you want them to go.
 
 For example:
-```cpp int x;```
+```cpp 
+int x;```
   
 Turns into:
 ```cpp
