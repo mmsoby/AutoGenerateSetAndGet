@@ -8,14 +8,10 @@ After set up, all you need to do is copy the class attributes that you want sett
 For example:
 `int x;`
   
-turns into:
-`void setX(int in){
-x=in;
-}
+Turns into:
+`void setX(int in){\nx=in;\n}
 
-int getX(){
-return x;
-}`
+int getX(){\nreturn x;\n}`
 
 ## Setup
 1. Fork this project
