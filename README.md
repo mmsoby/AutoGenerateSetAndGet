@@ -23,13 +23,13 @@ int getX(){
 
 ## Setup
 1. Fork this project
-  i. x
+i. x
 2. Have an Xcode project open and do the following
-  i. `Xcode > Behaviors > Edit Behaviors... >`
-  ii. Add a new behavior
-  iii. Name it, and give it a custom shortcut by clicking the little box to the right of it and typing the keys you want to use for this shortcut.(For example I used command + \`)
-  iv. Scroll to the bottom and select run
-  v. Choose this script
+i. `Xcode > Behaviors > Edit Behaviors... >`
+ii. Add a new behavior
+iii. Name it, and give it a custom shortcut by clicking the little box to the right of it and typing the keys you want to use for this shortcut.(For example I used command + \`)
+iv. Scroll to the bottom and select run
+v. Choose this script
 
 ## That's all
 Now every time you want a long list of setters and getters all you need to do is copy your attributes, press the special shortcut, and paste your methods. Hope I helped.
