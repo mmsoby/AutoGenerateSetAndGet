@@ -1,6 +1,6 @@
 # Auto Generate Setter and Getter methods for Xcode C++
 ## I don't know why this isn't built into Xcode
-Xcode is a very sophisticated IDE, yet for some reason they don't have a feature that auto generates setters and getters. I like Xcode too much to leave it, so I decided to write a User script. Many youtube videos and stackoverflow threads later: I finished it.
+Xcode is a very sophisticated IDE, yet for some reason they don't have a feature that auto generates setters and getters. I like Xcode too much to leave it, so I decided to write a User script. Many youtube videos and stackoverflow threads later, I made this Xcode user script.
 
 ## How it works
 After set up, all you need to do is copy the class attributes that you want setters and getters for. Then the script will change what's inside your clipboard. Meaning all you need to do is paste the setters and getters where you want them to go.
