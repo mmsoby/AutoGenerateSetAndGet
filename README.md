@@ -9,22 +9,19 @@ For example:
 `int x;`
   
 turns into:
-`
-void setX(int in){
+`void setX(int in){
 x=in;
 }
 
 int getX(){
 return x;
-}
-
-`
+}`
 
 ## Setup
 1. Fork this project
   i. 
 2. Have an Xcode project open and do the following
-  i. `Xcode > Behaviors > Edit Behaviors... >'
+  i. `Xcode > Behaviors > Edit Behaviors... >`
   ii. Add a new behavior
   iii. Name it, and give it a custom shortcut by clicking the little box to the right of it and typing the keys you want to use for this shortcut.(For example I used command + \`)
   iv. Scroll to the bottom and select run
