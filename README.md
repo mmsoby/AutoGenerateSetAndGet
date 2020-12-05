@@ -29,8 +29,8 @@ int getX(){
 3. Have an Xcode project open and do the following
     1. `Xcode > Behaviors > Edit Behaviors...`
     2. Add a new behavior by clicking the `+` on the bottom left
-    3. Name it, and give it a custom shortcut by clicking the little box to the right of it and typing the keys you want to use for this shortcut. (For example I used command + \` )
-    4. Scroll to the bottom and select run
+    3. Name it, and give it a custom shortcut by clicking the little box to the right of it and typing the keys you want to use for this shortcut. For example I used command + \` 
+    4. Scroll to the bottom and check run
     5. Choose this script
   
   
