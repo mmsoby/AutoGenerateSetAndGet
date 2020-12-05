@@ -23,7 +23,7 @@ int getX(){
 
 ## Setup
 1. Fork this project
-  i. 
+  i. x
 2. Have an Xcode project open and do the following
   i. `Xcode > Behaviors > Edit Behaviors... >`
   ii. Add a new behavior
