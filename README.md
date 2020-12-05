@@ -7,7 +7,8 @@ After set up, all you need to do is copy the class attributes that you want sett
 
 For example:
 ```cpp 
-int x;```
+int x;
+```
   
 Turns into:
 ```cpp
