@@ -9,6 +9,7 @@ For example:
 `int x;`
   
 Turns into:
+```cpp
 `void setX(int in) { x=in; }
 
 int getX(){ return x; }`
