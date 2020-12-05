@@ -9,9 +9,9 @@ For example:
 `int x;`
   
 Turns into:
-`void setX(int in){\nx=in;\n}
+`void setX(int in){ \n x=in; \n }
 
-int getX(){\nreturn x;\n}`
+int getX(){ \n return x; \n }`
 
 ## Setup
 1. Fork this project
