@@ -10,9 +10,10 @@ For example:
   
 Turns into:
 ```cpp
-`void setX(int in) { x=in; }
+void setX(int in) { x=in; }
 
-int getX(){ return x; }`
+int getX(){ return x; }
+```
 
 ## Setup
 1. Fork this project
