@@ -1,0 +1,30 @@
+
+void setWheelCount(int in){
+wheelCount=in;
+}
+
+int getWheelCount(){
+return wheelCount;
+}
+void setCarType(string in){
+carType=in;
+}
+
+string getCarType(){
+return carType;
+}
+void setTime(int in){
+time=in;
+}
+
+int getTime(){
+return time;
+}
+void setFlies(bool in){
+flies=in;
+}
+
+bool getFlies(){
+return flies;
+}
+
