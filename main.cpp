@@ -23,21 +23,15 @@ int main() {
 		cout<<"Bad";
 		return 9;
 	}
-	while(!inFile.eof()){
-		inFile>>type;
-		if(type=="\n"){
-			break;
-		}
+	
+	while(inFile>>type){
 		inFile>>varName;
-		if(varName=="\n"){
-			break;
-		}
 		char firstChar=toupper(varName.substr(0,1).c_str()[0]);
 		string newVarName=firstChar+varName.substr(1,varName.size()-2);
 		
 		
 		total+="void set"+newVarName+"("+type+" in){\n"+varName.substr(0,varName.size()-1)+"="+"in;"+"\n}\n\n";
-		total+=type+" get"+newVarName+"(){\nreturn "+varName+"\n}\n";
+		total+=type+" get"+newVarName+"(){\nreturn "+varName+"\n}\n\n";
 		
 	}
 	inFile.close();

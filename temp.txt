@@ -1,0 +1,62 @@
+
+void setWheelCount(int in);
+
+int getWheelCount();
+
+void setTankVolume(float in);
+
+float getTankVolume();
+
+void setTopSpeed(double in);
+
+double getTopSpeed();
+
+void setMake(std::string in);
+
+std::string getMake();
+
+void setModel(std::string in);
+
+std::string getModel();
+
+void Car::setWheelCount(int in){
+wheelCount=in;
+}
+
+int Car::getWheelCount(){
+return wheelCount;
+}
+
+void Car::setTankVolume(float in){
+tankVolume=in;
+}
+
+float Car::getTankVolume(){
+return tankVolume;
+}
+
+void Car::setTopSpeed(double in){
+topSpeed=in;
+}
+
+double Car::getTopSpeed(){
+return topSpeed;
+}
+
+void Car::setMake(std::string in){
+make=in;
+}
+
+std::string Car::getMake(){
+return make;
+}
+
+void Car::setModel(std::string in){
+model=in;
+}
+
+std::string Car::getModel(){
+return model;
+}
+
+
