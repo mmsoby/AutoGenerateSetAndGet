@@ -22,7 +22,7 @@ int getX(){
 ```
 
 ## Setup
-### You could just watch my [Youtube Video]("https://www.youtube.com/watch?v=8ZkY0Yyff_4")
+### You could just watch my [Youtube Video](https://www.youtube.com/watch?v=8ZkY0Yyff_4)
 ### OR
 1. Fork this project
 2. Store it somewhere safe, a place with directories you won't mess around with too much
